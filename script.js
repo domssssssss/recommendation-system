@@ -12,7 +12,7 @@ if (window.location.pathname === "/index.html") {
     }, 500);
   });
 }
-if (window.location.pathname === "/holland-code.html") {
+if (window.location.pathname === "recommendation-system/holland-code.html") {
   const loadingScreen = document.querySelector(".loading-screen");
   loadingScreen.style.display = "none";
 
