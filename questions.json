@@ -1,0 +1,508 @@
+[
+  {
+    "id": 1,
+    "question": "Fix a broken faucet",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Play a musical instrument",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Keep shipping and receiving records",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Maintain employee records",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Lay brick or tile",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Sell merchandise at a department store",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Supervise the activities of children at a camp",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Test the quality of parts before shipment",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Sell restaurant franchises to individuals",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Give career guidance to people",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Operate a calculator",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Work on an offshore oil-drilling rig",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Help elderly people with their daily activities",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Manage a clothing store",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Help people with family-related problems",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Make a map of the bottom of an ocean",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Operate a beauty salon or barber shop",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Design artwork for magazines",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Handle customers' bank transactions",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Perform stunts for a movie or television show",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Teach an individual an exercise routine",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Do volunteer work at a non-profit organization",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Study the structure of the human body",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Assemble products in a factory",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Manage the operations of a hotel",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Develop a new medical treatment or procedure",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Study whales and other types of marine life",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Compute and record statistical and other numerical data",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Assemble electronic parts",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Work in a biology lab",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "Inventory supplies using a hand-held computer",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Design sets for plays",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Conduct a musical choir",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Sell houses",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Write books or plays",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Install flooring in houses",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Help people who have problems with drugs or alcohol",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Use a computer program to generate customer bills",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Direct a play",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Operate a grinding machine in a factory",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Manage a department within a large company",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Write a song",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Run a toy store",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Study animal behavior",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "Conduct biological research",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Do research on plants or animals",
+    "choices": [
+      { "value": 5, "label": "E", "color": "#789775" },
+      { "value": 4, "label": "S E", "color": "#a3b57b" },
+      { "value": 3, "label": "N", "color": "#d8d8d8" },
+      { "value": 2, "label": "S D", "color": "#f2c4b4" },
+      { "value": 1, "label": "D", "color": "#f2978a" }
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+/* General styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f6e9df;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Progress Bar */
+.progress-bar {
+  background-color: #e0e0e0;
+  height: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.progress {
+  height: 100%;
+  width: 10%; /* This width will increase dynamically via JavaScript */
+  background-color: #789775;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Question */
+.question {
+  font-size: 34px;
+  color: #4f5e69;
+  margin: 80px 0 40px; /* Adjust margin to push content further down on mobile */
+  font-weight: bold;
+}
+
+/* Rating Scale */
+.scale {
+  display: flex;
+  justify-content: space-evenly; /* Evenly distribute circles */
+  align-items: center; /* Center the circles */
+  margin-bottom: 40px;
+  flex-wrap: nowrap; /* Prevent wrapping on larger screens */
+  gap: 10px; /* Add consistent spacing between circles */
+  width: 100%; /* Ensure the scale stretches across the container */
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #d3d3d3; /* Default color */
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+  display: flex; /* Align content inside the circle */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  font-weight: bold; /* Optional: Add text inside circles */
+}
+
+.circle:hover {
+  transform: scale(1.2);
+  background-color: #ccc; /* Slight color change on hover */
+}
+
+.option p {
+  font-size: 16px;
+  color: #4f5e69;
+  margin: 0;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between; /* Redo on the left, Next on the right */
+  align-items: center;
+  margin-top: 40px;
+}
+
+button {
+  background-color: #465b68;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 200px; /* Equal width for buttons */
+}
+
+button:hover {
+  background-color: #3b4d5a;
+}
+.scale p {
+  font-weight: bold;
+}
+/* Legend styling */
+.legend {
+  display: flex;
+  justify-content: space-between; /* Spread the legend items evenly */
+  align-items: center;
+  margin-bottom: 20px; /* Add spacing between legend and scale */
+  font-size: 16px; /* Adjust font size */
+  color: #4f5e69;
+  text-align: center;
+  font-size: smaller;
+}
+
+.legend-item {
+  margin: 0 10px; /* Add spacing between legend items */
+}
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(222, 212, 195);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+
+  .loading-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loading {
+    width: 200px;
+    height: auto;
+  }
+
+  .loading-text {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .question {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  .scale {
+    flex-wrap: wrap; /* Allow circles to wrap on smaller screens */
+    justify-content: center; /* Center circles when wrapped */
+    gap: 20px; /* Increase spacing between rows */
+  }
+
+  .circle {
+    width: 60px; /* Smaller circles for smaller screens */
+    height: 60px;
+    font-size: 14px; /* Adjust text size inside circles */
+  }
+
+  .buttons {
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 20px; /* Add spacing between buttons */
+    align-items: center; /* Center buttons */
+  }
+
+  button {
+    width: 100%; /* Buttons take up full width on mobile */
+    max-width: 300px; /* Limit the button size */
+  }
+}
+
+@media (max-width: 480px) {
+  .question {
+    font-size: 20px; /* Further reduce font size for extra small screens */
+  }
+
+  .circle {
+    width: 50px; /* Further smaller circles */
+    height: 50px;
+    font-size: 12px; /* Adjust text size */
+  }
+
+  button {
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 14px; /* Adjust button text size */
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Information</title>
+    <link rel="stylesheet" href="holland-code-styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="input-text">STUDENT INFORMATION</h1>
+      <div class="form-group">
+        <div class="form-field">
+          <label for="name">Name:</label>
+          <input type="text" id="name" />
+        </div>
+        <div class="form-field">
+          <label for="gender">Gender:</label>
+          <select id="gender">
+            <option value="" disabled selected>Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="nonbinary">Non-binary</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="strand">Strand:</label>
+          <select id="strand">
+            <option value="" disabled selected>Select your strand</option>
+            <option value="stem">STEM</option>
+            <option value="humss">HUMSS</option>
+            <option value="abm">ABM</option>
+            <option value="gas">GAS</option>
+            <option value="tvl">TVL</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="age">Age:</label>
+          <input type="text" id="age" />
+        </div>
+        <div class="form-field full-width">
+          <label for="courses">Preferred Courses:</label>
+          <select id="courses">
+            <option value="" disabled selected>
+              Select your preferred course
+            </option>
+            <option value="engineering">Engineering</option>
+            <option value="nursing">Nursing</option>
+            <option value="business">Business Administration</option>
+            <option value="it">Information Technology</option>
+            <option value="education">Education</option>
+            <option value="arts">Arts and Design</option>
+          </select>
+        </div>
+      </div>
+      <button class="submit-button">BEGIN ASSESSMENT</button>
+    </div>
+    <div class="loading-screen">
+      <div class="loading-container">
+        <img
+          class="loading"
+          src="img/loader.webp"
+          alt="Loading..."
+          draggable="false"
+        />
+        <p class="loading-text">Loading...</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

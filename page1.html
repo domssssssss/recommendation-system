@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Progress</title>
+    <link rel="stylesheet" href="pages.css" />
+    <link rel="icon" href="img/iconheader.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Progress Bar -->
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+
+      <!-- Question -->
+      <h2 class="question">Fix a broken faucet</h2>
+
+      <!-- Rating Scale -->
+      <div class="scale">
+        <div class="option" data-value="5">
+          <div class="circle" style="background-color: #789775"></div>
+          <p>E</p>
+        </div>
+        <div class="option" data-value="4">
+          <div class="circle" style="background-color: #a3b57b"></div>
+          <p>S E</p>
+        </div>
+        <div class="option" data-value="3">
+          <div class="circle" style="background-color: #d8d8d8"></div>
+          <p>N</p>
+        </div>
+        <div class="option" data-value="2">
+          <div class="circle" style="background-color: #f2c4b4"></div>
+          <p>S D</p>
+        </div>
+        <div class="option" data-value="1">
+          <div class="circle" style="background-color: #f2978a"></div>
+          <p>D</p>
+        </div>
+      </div>
+
+      <!-- Legend -->
+      <div class="legend">
+        <span class="legend-item" style="background-color: #789775"
+          ><strong>Enjoy</strong></span
+        >
+        <span class="legend-item" style="background-color: #a3b57b"
+          ><strong>Slightly Enjoy</strong></span
+        >
+        <span class="legend-item" style="background-color: #d8d8d8"
+          ><strong>Neutral</strong></span
+        >
+        <span class="legend-item" style="background-color: #f2c4b4"
+          ><strong>Slightly Dislike</strong></span
+        >
+        <span class="legend-item" style="background-color: #f2978a"
+          ><strong>Dislike</strong></span
+        >
+      </div>
+
+      <!-- Buttons -->
+      <div class="buttons">
+        <button class="redo-button"><span>&#8635;</span> Redo</button>
+        <button class="submit-button" style="display: none">Submit</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
